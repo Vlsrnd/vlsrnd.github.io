@@ -21,6 +21,10 @@
                     {
                       "/": "/pay/*",
                       "comment": "Matches /pay/ followed by one or more segments"
+                    },
+                    {
+                        "/": "/records/,
+                        "comment "Records"
                     }
                 ]
             }
