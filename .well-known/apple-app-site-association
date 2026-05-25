@@ -7,23 +7,8 @@
             {
                 "appID": "XJ54NM66NP.com.yplaces.app",
                 "components": [
-                    {
-                      "/": "/c/*",
-                      "comment": "Matches /c/ followed by one segment"
-                    },
-                    {
-                      "/": "/c/*/*",
-                      "comment": "Matches /c/ followed by two segments"
-                    },
-                    {
-                      "/": "/pay/*",
-                      "comment": "Matches /pay/ followed by one or more segments"
-                    },
-                    {
-                      "/": "/records/*",
-                      "comment": "Records"
-                    },
-                    { "/": "/deeplinks/records", "comment": "Exact match" }
+                    { "/": "/deeplinks/records" },
+                    { "/": "/deeplinks/profile" }
                 ]
             }
         ]
